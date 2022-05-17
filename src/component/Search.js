@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
+import React from 'react'
+
+const Search = () => {
+  return (
+    <div>
 <div className="container">
     <div className="row">
         <div className="col col-12 col-cm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             
-            <div className="row">
+            <div className="row g-3 ">
                
             
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -27,5 +22,8 @@
     </div>
 </div>
 
-</body>
-</html>
+    </div>
+  )
+}
+
+export default Search

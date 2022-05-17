@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import Addproduct from './component/Addproduct';
+import Search from './component/Search';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div>
 
 <Addproduct/>
+<Search/>
 
     </div>
   );
